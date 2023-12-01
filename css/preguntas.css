@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.caja1 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    width: 900px;
+}
+
+h2 {
+    width: 927px;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+.xl{
+    width: 950px;
+    border-radius: 5PX;
+    background-color: rgba(0, 255, 255, 0.3);
+    box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.2);
+}
+
+h3 {
+    width: 200px;
+    border-radius: 5PX;
+    background-color: rgba(146, 150, 237, 0.681);
+    font-size: 1em;
+}
+
+h4 {
+    width: 200px;
+    border-radius: 5PX;
+    background-color: rgba(247, 75, 75, 0.3);
+    font-size: 1em;
+}
+
+button {
+    border: 3px solid rgba(239, 222, 111, 0.974);
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 130px;
+}
+
+input {
+    cursor: pointer;
+}

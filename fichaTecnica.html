@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Técnica</title>
+    <link rel="stylesheet" href="css/fichaTecnica.css">
+    <script src="js/fichaTecnica.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <img src="img/cubos.jpg" title="Logotipo">
+            <img class="log" src="img/log.png" title="Logotipo">
+            
+        </tr>
+    </table>
+    <table class="fac">
+        <tr>
+            <th >Ficha Técnica</th>
+        </tr>
+    </table>
+    <table>
+        <tr>
+    <th><p>
+        <label for="nombre"></label>
+        <b>Nombre de Producto</b></th>
+        <th><input type="text" id="nombre" placeholder="Nombre de producto"> 
+    </p></th>
+        </tr>
+    <tr>
+    <th><p>
+        <label for="linea"></label>
+        <b>Linea de Producción</b></th>
+        <th><input type="text" id="linea" placeholder="Linea de Producción"> 
+    </p></th>
+    </tr>
+    <th><p>
+        <label for="Marca"></label>
+        <b>Marca</b></th>
+        <th><input type="text" id="Marca" placeholder="Marca"> 
+    </p></th>
+    </tr>
+    <th><p>
+        <label for="Código"></label>
+        <b>Código o referencia</b></th>
+        <th><input type="text" id="Código" placeholder="Código"> 
+    </p></th>
+    </tr>
+    <th><p>
+        <label for="Caracteristicas"></label>
+        <b>Características </b></th>
+        <th><input type="text" id="Caracteristicas" placeholder="Software, procesador, RAM.. "> 
+    </p></th>
+    </tr>
+    <tr>
+        <th><p>
+        <label for="cantidad"></label>
+        <b>Cantidad de equipos</b></th>
+        <th><input type="number" id="cantidad" placeholder="Cantidad"> </th>
+    </p>
+</tr>
+<th><p>
+        <label for="Valor"></label>
+        <b>Valor Unitario</b></th>
+       <th><input type="number" id="valor" placeholder="Valor">  </th>
+    </p></th>
+</tr>
+
+</table>
+<!-- <div class="pie">
+    IVA=19%  NO GRAVADO IMP. CONS BOLSAS P. <BR>
+    
+    CONSUMIDOR FINAL SISTEMA P.O.S ARS - DESARROLLADO POR: <BR>
+    MULTISER COLOMBIA LTDA NIT 860.005.075-8 <BR>
+        ATENDIDO POR: Margarita Monsalve <br>
+        NUMERO DE ARTICULOS ENTREGADOS 6 <BR>
+    18/04/23 09:22 05 1361 03 5518 742373 <BR>
+    Res. DIAN 18764027428241 DE 20220405 <BR>
+    C01C Desde 1 Hasta 1999999 <br>
+    DOCUMENTOS POS Nro. C01C 69852
+    </div> -->
+    <button onclick="verFicha()">Enviar Datos</button><br>
+    
+<p id="prod"></p>
+<p id="line"></p>
+<p id="cod"></p>
+<p id="marc"></p>
+<p id="caract"></p>
+<p id="total"></p>
+<button onclick="imprimir()">Imprimir</button>
+</body>
+</html>

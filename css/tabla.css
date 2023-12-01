@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: bisque;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px rgb(187, 186, 186);
+    text-align: center;
+}
+
+.columna3 {
+    background-color: rgba(235, 229, 229, 0.872);
+    font-size: 20px;
+}
+
+.columna5 {
+    background-color: rgba(235, 229, 229, 0.872);
+    font-size: 20px;
+}
+
+.columna7 {
+    background-color: rgba(235, 229, 229, 0.872);
+    font-size: 20px;
+}
+
+.pircing {
+    background-color: rgba(235, 229, 229, 0.872);
+    font-size: 25px;
+}
+
+.free {
+    background-color: aqua;
+    font-size: 25px;
+  
+}
+
+.basic {
+    background-color: rgb(64, 240, 29);
+    font-size: 25px;
+}
+
+.standart {
+    background-color: #ffea00;
+    font-size: 25px;
+}
+
+.premium {
+    background-color: red;
+    font-size: 25px;
+}
+
+.border-inferior {
+    border-top: 1px dotted #94938f;
+}
+
+input:hover [type="sumbit"]{
+   
+    transform: translateY(-100%);
+    
+}

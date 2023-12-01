@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+}
+
+.principal {
+    width: 100%;
+    height: 0; /* Cambia el alto a auto para que se ajuste automáticamente */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden; /* Para ocultar el desbordamiento de las imágenes */
+    max-width: 100%;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 660px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+
+
+body{
+    background: linear-gradient(217deg,rgba(191, 224, 234, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+    linear-gradient(127deg, rgba(139, 131, 129, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(247, 249, 249, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.var {   
+    background: linear-gradient(307deg,rgba(255, 0, 0, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+    linear-gradient(336deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(127deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    display: flex;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.var p{
+    padding: 15px;
+    cursor: pointer;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.var p:hover{
+    background-color: rgb(247, 248, 249);
+    border-radius: 10px;
+    font-size: 1.1em;
+    border-bottom: 1px solid salmon;
+}
+
+img{
+    height: 60px;
+    position: relative;
+}
+
+.buttons{
+    width: 75px;
+    color: rgb(22, 13, 10);
+    background: linear-gradient(57deg,rgba(255, 0, 0, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+    linear-gradient(27deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(36deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    border-radius: 5px;
+    height: 45px;
+    border: none;
+    margin-left: 25px;
+    cursor: pointer;
+    transform: translateY(-2%);
+}
+.buttons:hover{
+    transform: translateY(2%);
+}
+
+.container5{
+    background: transparent;
+    font-size: 1.2em;
+    display: grid;
+    grid-gap: 10px;
+    width: 100%;
+    height: 800px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 330px;
+}
+
+.img1{
+    width: 100%;
+    height: 93%;
+    border-left: 1px solid rgba(128, 128, 128, 0.315);
+    border-top: 1px solid rgba(128, 128, 128, 0.299);
+}
+.m1{/*para generar titulo*/
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 5; 
+}
+
+.m6{/*para generar espacio entre segunda fila de imagenes y texto*/
+    margin-top: -80px;
+    margin-bottom: -20px;
+    grid-column-start: 2;
+    grid-column-end: 5; 
+    }
+
+.m2{/*para generar banner*/
+    background-color:transparent;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.imgC{
+    height: 100%;
+    width: 100%;
+    border:1px solid rgba(128, 128, 128, 0.464);
+}
+
+p{
+    text-align: justify;
+}
+
+.box p{
+    background: linear-gradient(217deg,rgba(123, 219, 251, 0.8),rgba(255, 0, 0, 0) 70.71%), 
+                linear-gradient(127deg, rgba(251, 92, 60, 0.8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(247, 249, 249, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+
+/*BLOQUE DE IMAGENES DE ARRIBA*/
+
+
+
+
+.img-1-visible{
+    position: absolute;
+    width: 70%;
+    height: 300px;
+    margin-left: 155px;
+    left: 0;
+    transition: all 1200ms;
+}
+.img-1-hidden{
+    position: absolute;
+    width: 80%;
+    left: -100%;
+    transition: all 1200ms;
+    margin-top: -5%;
+}
+
+.img-2-visible{
+    position: absolute;
+    width: 70%;
+    height: 300px;
+    margin-left: 155px;
+    left: 0;
+    transition: all 1200ms;
+    
+}
+.img-2-hidden{
+    position: fixed;
+    width: 80%;
+    left: 100%;
+    transition: all 1200ms;
+    margin-top: -5%;
+}
+
+.img-2-hidden-a{
+    position: absolute;
+    width: 80%;
+    left: -100%;
+    transition: all 1200ms;
+    margin-top: -5%;
+}
+
+.img-3-visible{
+    position: absolute;
+    width: 70%;
+    height: 300px;
+    left: 0;
+    transition: all 1200ms;
+    margin-left: 155px;
+    
+}
+
+.img-3-hidden{
+    position: fixed;
+    width: 80%;
+    left: 100%;
+    transition: all 1200ms;
+    margin-left:10%;
+    margin-top: -5%;
+}
+
+.left-arrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+.left-arrow-visible{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+
+.left-arrow-hidden{
+    width: 0;
+    height: 0;
+}
+
+.right-arrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 220px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.right-arrow-hidden{
+    width: 0;
+    height: 0;
+}
+

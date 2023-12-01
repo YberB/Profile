@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div1, .div2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.div1 {
+    background-image: url(../img/pregLocal.jpg);
+}
+
+.div2 {
+    background-image: url(../img/respLocal.jpg);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    color: rgb(229, 251, 248);
+}
+
+p, select, button {
+    margin-left: 25px;
+    padding: 5px;
+}
+
+select{
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 8px ;
+    border: 2px solid rgb(252, 34, 34);
+    color: rgb(255, 0, 0);
+}
+
+button:hover{
+    border-radius: 8px ;
+    border: 2px solid rgb(34, 205, 252);
+    color: rgb(0, 191, 255);
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.2em;
+    color: rgb(233, 233, 239);
+}
+
+a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 7) 1px 52px 90px 14px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(5, 3, 21);
+    background-color: rgb(240, 226, 67);
+    border: 2px solid rgb(34, 205, 252);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 7) 1px 52px 90px 14px;
+}
+
+.container, .container2{
+   margin-top: 100px;
+   margin-left: 100px;
+   background-color: rgba(0, 255, 255, 0.504);
+   border-radius: 5px;
+   width: 700px;
+}
+
+.container2{
+    width: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

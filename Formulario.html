@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+<section class="form-ventas">
+        <div class="panel">
+            <h5>Bienvenido Yber</h5>
+            <br>
+            <h4>Equipos disponibles para venta</h4>
+        </div>
+            <div class="vent">
+                <div class="cell">
+                    <div class="form-cell">
+                        <h5>Samsung</h5>
+                        <div>
+                           <center><img class="img" src="img/samsung.jpg" alt=""></center>
+                        </div>
+                        <p>Precio: $600</p>
+                        <input class="number" type="number" id="cantidad" placeholder="Cantidad">
+                    </div>    <div class="form-cell">
+                        <h5>Motorola</h5>
+                        <div>
+                           <center><img class="img" src="img/motorola.jpg" alt=""></center>
+                        </div>
+                        <p>Precio: $400</p>
+                        <input class="number" type="number" id="cantidad" placeholder="Cantidad">
+                    </div>    <div class="form-cell">
+                        <h5>Huawei</h5>
+                        <div>
+                           <center><img class="img" src="img/huawei.jpg" alt=""></center>
+                        </div>
+                        <p>Precio: $200</p>
+                        <input class="number" type="number" id="cantidad" placeholder="Cantidad">
+                    </div>
+            </div>
+        </div> 
+        <input onclick="vender" class="buttonv" type="submit" name=""value="Vender">
+        <p><a href="Formulario.html">Cerrar sesión</a></p>
+    </section>
+    <section class="form-login">
+        <h5>Inicio de Sesión</h5>
+        <input class="controls" type="text" name="Usuario" value=""placeholder=" Usuario">
+        <input class="controls" type="password" name="Contraseña" value=""placeholder=" Contraseña">
+        <input onclick="ingresar" class="buttons" type="submit" name=""value="Ingresar">
+        <input class="register" type="submit" name=""value="Registrarse">
+        <p><a href="#">Olvidaste tu contraseña</a></p>
+    </section>
+    <section class="form-login">
+        <h5>Registro de Usuario</h5>
+        <input class="controls" type="text" name="Usuario" value=""placeholder=" Ingrese su usuario">
+        <input class="controls" type="password" name="Contraseña" value=""placeholder="Ingrese su Clave">
+        <input onclick="registrar" class="buttons" type="submit" name=""value="Registar">
+        <p><a href="#">Regresar a Inicio de sesión</a></p>
+    </section>
+    <script src="ventas.js">
+        var inicio = {
+            usuario:"",
+            contraseña:""
+        }
+        var registro = {
+            usuario:"",
+            contraseña:""
+        }
+        function ingresar(){
+            var inicio = localStorage.setItem("inicio", JSON.stringify(inicio))
+        }
+
+        function vender() {
+            document.write("Celulares Samsung"+samsung+ "en total"),
+            document.write("Celulares Motorola"+motorola+ "en total"),
+            document.write("Celulares Huawei"+huawei+ "en total")
+        }
+        function registrar(){
+            var registro = localStorage.setItem("registro", JSON.stringify(registro))
+
+        }
+    </script> 
+</body>
+</html>

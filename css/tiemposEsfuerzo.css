@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.titulo {
+    font-size: 20px;
+    border-bottom: 1px double black;
+    border-right: 1px double black;
+    border-left: 1px double black;
+    border-top: 1px double black;
+}
+.tarea {
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.fechas {
+    width: 150px;
+    height: 100px;
+    background-color: bisque;
+}
+.dates {
+    font-size: 1em;
+}
+td {
+    text-align: center;
+    background-color: bisque;
+    border-right: 1px groove black;
+}

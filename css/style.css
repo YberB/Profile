@@ -1,0 +1,57 @@
+
+h1 {
+   text-align: center;
+   font-size: 80px;
+}
+h2 {
+    text-align: center;
+    color:rgb(20, 20, 2); 
+}
+
+.select{
+    color:rgb(32, 139, 38)
+}
+
+p.select {
+    color:violet
+}
+li.select {
+    color:yellowgreen
+}
+
+body{
+    background-image: url('../images/fondos.png');
+    background-size: cover;
+}
+
+.titulo{
+    font-family: 'NemoyBold';
+    font-weight: bold;
+    font-style: normal;  
+}
+
+.nombre{
+   font-family: 'MiTicaRegular';
+   font-weight: normal;
+   font-style: normal; 
+}
+
+.bienvenida{
+    font-family: 'TambourineRegular';
+   font-weight: bold;
+   font-style: normal;
+}
+
+.intro{
+    font-family: 'CoupeurBricoleurDOWN';
+    font-weight: normal;
+    font-style: normal;
+}
+
+li {
+    font-size: 30px;
+}
+
+li:hover {
+    color: rgb(89, 163, 248);
+}

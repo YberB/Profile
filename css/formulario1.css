@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url(../img/form1.jpg);
+}
+   section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+   }
+
+   .form-login {
+    width: 500PX;
+    height: 340px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+    color: white;
+    
+    }
+
+   .form-box {
+    border-top: 4px solid #017bab;
+    border-bottom: 4px solid #017bab;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+    box-shadow: 7px 13px 37px #000;
+   }
+
+   form {
+    margin-top: 10px;
+    border: 1px solid rgb(162, 200, 247);
+    width: 500px;
+    position: relative;
+    background: rgba(225, 225, 225, 0.15);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.25);
+    border-left: 1px solid rgba(225, 225, 225, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+   legend {
+    background-color: rgb(72, 181, 232);
+    color: white;
+    height: 50px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .legend-tex {
+    padding: 20px;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   label {
+    display: block;
+    color: rgb(247, 234, 237);
+    margin-top: 20px;
+    
+   }
+
+   textarea {
+   resize: none;
+   cursor: pointer;
+   }
+
+   .opcion {
+    color: rgb(195, 230, 247);
+   }
+
+   input [type="sumbit"]{
+    width: 50px;
+    height: 40px;
+    background:  rgb(72, 181, 232);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(0deg,#2c3c99,#00b0ff);
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.selectstyle {
+    padding: 4px;
+    border-radius: 4px;
+    color: rgb(85, 85, 96);
+    cursor: pointer;
+}
+

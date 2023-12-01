@@ -1,0 +1,24 @@
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/walle.jpg');
+    background-size: cover;
+}
+
+.fuente-d {
+    margin-bottom: 600px;
+    color:rgb(74, 11, 248);
+    font-size: 10em;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+

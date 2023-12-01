@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo con efectos</title>
+    <link rel="shortcut icon" href="images/faviconyber.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/catalogo.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <h1 style= "color: rgb(139, 200, 241)" >CATÁLOGO </h1>
+            <div >
+                <h1 style="color: rgb(134, 240, 175);"> DE </h1>
+            </div>
+            <div>
+                <h1 style="color: rgb(247, 158, 158);">MOTOCICLETAS</h1>
+            </div>
+        </div>
+        <div class="box">
+            <a href="#" class="buy">Comprar ahora</a>
+            <img src="images/benelli251.png" alt="" class="product">
+            <div class="circle"></div>
+            <h2 class="name">Dominar 250</h2>
+            
+        </div>
+        
+        <div class="box">
+            <a href="#" class="buy">Comprar ahora</a>
+            <img src="images/Hunk160.png" alt="" class="product">
+            <div class="circle"></div>
+            <h2 class="name">Zontex 155</h2>
+            
+        </div>
+        <div class="box">
+            <a href="#" class="buy">Comprar ahora</a>
+            <img src="images/Pulsarns200.png" alt="" class="product">
+            <div class="circle"></div>
+            <h2 class="name">Pulsar NS 200</h2>
+           
+        </div>
+    </div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+</body>
+</html>

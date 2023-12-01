@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/calen.jpg);
+}
+
+h1 {
+    margin-top: -250px;
+    opacity: 75%;
+    margin-left: -20px;
+    background-color: rgba(4, 5, 5, 0.283);
+    border-radius: 5px;
+}
+
+.container{
+    position: absolute;
+    display: grid;
+    background-color: #131313b8;
+    font-size: 1.2em;
+    width: 900px;
+    height: 800px;
+    grid-template-columns: repeat(7, 1fr);
+    margin-left: -350px;
+    border-radius: 5px;
+}
+
+.SEMANA {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.dia{
+    background-color: #9adc284a;
+    height: 90px;
+    width: 90px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: right;
+    margin-left: 15px;
+    margin-top: -100px;
+}
+
+.fecha, .fecha1{
+    background-color: #9adc284a;
+    display: flex;
+    position: absolute;
+    height: 90px;
+    font-size: .7em;
+    width: 90px;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 4px;
+}
+
+.fecha3 {
+    background-color: #28b5dc4a;
+    display: flex;
+    position: absolute;
+    height: 90px;
+    font-size: .7em;
+    width: 90px;
+    align-items: flex-end;
+    justify-content: left;
+    border-radius: 4px;
+}
+
+.m {/*para separar el inicio de recuadro*/
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border: none;
+    box-shadow: none;
+}
+
+.dia:hover, .fecha:hover, .fecha1:hover, .fecha3:hover {
+
+    background-color: #131313b8;
+}
+
+
+
+
+
+

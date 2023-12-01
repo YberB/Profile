@@ -1,0 +1,686 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paginaRog.css">
+    <link rel="stylesheet" href="icons/all.css">
+    <link rel="shortcut icon" href="img/asus.png" type="image/x-icon">
+    <title>ROG - Republic of Gamers</title>
+
+     <div id="banner">
+        <img src="img/logoRog.jpg">
+        <div id="tabs">
+          <a class="tab active" href="#" onmouseover="mostrarProductos()" onmouseout="ocultarProductos()">PRODUCTS
+            <div class="containProducts">
+              <div class="containerList">
+                <div class="column">
+                  <ul>
+                    <li>Laptops</li>
+                    <li>Phones</li>
+                    <li>Desktops</li>
+                    <li>Gaming Handhelds</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <ul>
+                    <li>Motherboards</li>
+                    <li>Graphics Cards</li>
+                    <li>Monitors</li>
+                    <li>Cooling</li>
+                    <li>Power Supply Units</li>
+                    <li>Networking</li>
+                    <li>Cases</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <ul>
+                    <li>External Graphic Docks</li>
+                    <li>Keyboards</li>
+                    <li>Mice & Mouse Pads</li>
+                    <li>Headsets & Audio</li>
+                    <li>Apparel, Bags, & Gear</li>
+                    <li>Streaming Kits</li>
+                    <li>Controllers</li>
+                    <li>Storage</li>
+                    <li>Power & Protection Gadgets</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tuf-gaming">
+                TUF Gaming
+              </div>
+            </div>
+          </a>
+          <a class="tab tab-innovation" href="#" onmouseover="mostrarInnovation()" onmouseout="ocultarInnovation()">INNOVATION
+            <div class="containInnovation">
+              <div class="containerListInnovation">
+                <div class="column">
+                  <ul>
+                    <li>AniMe Matrix™ Pixel Editor</li>
+                    <li>ROG Nebula Display & Nebula HDR</li>
+                    <li>ROG Intelligent Cooling</li>
+                    <li>Customizable Armor Cap</li>
+                    <li>Aura</li>
+                    <li>Armoury Crate</li>
+                    <li>GPU Tweak III</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="tab tab-downloads" href="#" onmouseover="mostrarDownloads()" onmouseout="ocultarDownloads()">DOWNLOADS
+            <div class="containDownloads">
+              <div class="containListDownloads">
+                <div class="column">
+                  <ul>
+                    <li>Wallpapers</li>
+                    <li>Aura Sync</li>
+                    <li>Armoury Crate</li>
+                    <li>GPU Tweak III</li>
+                    <li>ROG Citadel XV</li>
+                  </ul>
+                </div>      
+              </div>
+            </div>
+          </a>
+          <a class="tab tab-community" href="#" onmouseover="mostrarCommunity()" onmouseout="ocultarCommunity()">COMMUNITY
+            <div class="containCommunity">
+              <div class="containListCommunity">
+                <div class="column">
+                  <ul>
+                    <li>News and Articles</li>
+                    <li>ROG Elite Program</li>
+                    <li>Team ROG</li>
+                    <li>ROG Forum</li>
+                    <li>ROG Game Deals</li>
+                    <li>Pressroom</li>
+                  </ul>
+                </div>      
+              </div>
+            </div>
+          </a>
+          <a class="tab tab-whatshot" href="#" onmouseover="mostrarWhatsHot()" onmouseout="ocultarWhatsHot()">WHAT'S HOT
+            <div class="containWhats">
+              <div class="containListWhats">
+                <div class="column">
+                  <ul>
+                    <li>ROG CES 2023 Gaming Laptops</li>
+                    <li>NVIDIA Overwatch 2 Game Bundle</li>
+                    <li>ROG x Minecraft Legends Partnership</li>
+                    <li>#whereismyally</li>
+                    <li>AMD Starfield Game Bundle</li>
+                    <li>CES 2023 ROG Launch Event</li>
+                    <li>For Those Who Dare</li>
+                    <li>Discover your next favorite game</li>
+                    <li>ROG SAGA</li>
+                    <li>Rate Your Gear campaign</li>
+                    <li>Windows 11</li>
+                  </ul>
+                </div>      
+              </div>
+            </div>
+          </a>
+          <a class="tab tab-support" href="#" onmouseover="mostrarSupport()" onmouseout="ocultarSupport()">SUPPORT</a>
+          
+        </div>
+        <div id="icons">
+          <img src="img/asus1.png" alt="" style="width: 55px;height: 15px;padding-right: 20px;border-right: 1px solid grey; ">
+          <div class="fa-solid fa-search" style="font-size: 20px;"></div>
+          <div class="fa-regular fa-user" style="font-size: 20px;"></div>
+        </div>
+    </div> 
+
+
+    
+    <div id="bannerX">
+      <div class="fa-solid fa-bars" id="openIcon" style="font-size: 20px;"></div>
+      <img class="imgbars" src="img/logoRog.jpg" alt="">
+
+      <div id="iconsbars">
+         <div class="iconbars fa-solid fa-search" ></div>
+      </div>
+    </div>
+      <div id="login">
+        <a href="#">Create an account for better product support!</a>
+      </div>
+
+
+
+      <div id="containMenu" class="containMenu">
+        <div class="containIcon">
+          <div class="fa-regular fa-user"></div>
+          <div class="fa-solid fa-x" id="closeIcon"></div>
+        </div>
+          <div class="containList">
+            <div>PRODUCTS</div><div class="fa-solid fa-chevron-right"></div>
+          </div>
+          <div class="containList">
+            <div>INNOVATION</div><div class="fa-solid fa-chevron-right"></div>
+          </div>
+          <div class="containList">  
+            <div>DOWNLOADS</div><div class="fa-solid fa-chevron-right"></div>
+          </div>
+          <div class="containList">
+            <div>COMMUNITY</div><div class="fa-solid fa-chevron-right"></div>
+          </div>
+          <div class="containList">
+            <div>WHAT`S HOT</div><div class="fa-solid fa-chevron-right"></div>
+          </div>
+          <div class="containList">
+            <div>SUPPORT</div><div class="fa-solid fa-chevron-right"></div>
+          </div>
+        <div class="containImg">
+          <img src="img/asus1.png" alt="">
+        </div>
+      </div>
+
+
+    <div>
+    <div id="imageContainer">
+        <img src="img/slide1.jpg" alt="Imagen 1">
+        <img src="img/slide2.jpg" alt="Imagen 2">
+        <img src="img/slide3.jpg" alt="Imagen 3">
+        <img src="img/slide4.jpg" alt="Imagen 4">
+        <img src="img/slide5.jpg" alt="Imagen 5">
+        <img src="img/slide6.jpg" alt="Imagen 6">
+    </div>
+    </div>
+
+
+    <div id="slider-container">
+      <div id="imageContainerX">
+        <img src="img/imx1.jpg" alt="Imagen 1">
+        <img src="img/imx2.jpg" alt="Imagen 2">
+        <img src="img/imx3.jpg" alt="Imagen 3">
+        <img src="img/imx4.jpg" alt="Imagen 4">
+        <img src="img/imx5.jpg" alt="Imagen 5">
+        <img src="img/imx6.jpg" alt="Imagen 6">
+      </div>
+    </div>
+  
+  <div class="ccarru">
+    <h1 class="titulocarrusel">EXPLORE OUR PRODUCTS</h1>
+    <div id="prev-button" class="back fa-solid fa-chevron-left"></div>
+    <div id="next-button" class="next fa-solid fa-chevron-right"></div>
+    <div class="carousel-container" id="carousel-container">
+      <div id="carousel" class="carousel">
+          <div class="slide">
+              <img src="img/imagen1.png" alt="Imagen 1"><br>
+              <div class="text-container">
+                <div class="text">Laptops</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen2.png" alt="Imagen 2"><br>
+              <div class="text-container">
+                <div class="text">Motherboards</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen3.png" alt="Imagen 3"><br>
+              <div class="text-container">
+                <div class="text">Graphics Cards</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen4.png" alt="Imagen 4"><br>
+              <div class="text-container">
+                <div class="text">Monitors</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen5.png" alt="Imagen 5"><br>
+              <div class="text-container">
+                <div class="text">Phones</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen6.png" alt="Imagen 6"><br>
+              <div class="text-container">
+                <div class="text">Cooling</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen7.png" alt="Imagen 7"><br>
+              <div class="text-container">
+                <div class="text">Desktops</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen8.png" alt="Imagen 8"><br>
+              <div class="text-container">
+                <div class="text">Power Supply Units</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen9.png" alt="Imagen 9"><br>
+              <div class="text-container">
+                <div class="text">External Graphic Docks</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+              <img src="img/imagen10.png" alt="Imagen 10"><br>
+              <div class="text-container">
+                <div class="text">Networking</div>
+                <div class="bar"></div>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/imagen11.png" alt="Imagen 11"><br>
+            <div class="text-container">
+              <div class="text">Keyboards</div>
+              <div class="bar"></div>
+          </div>
+        </div>
+        <div class="slide">
+            <img src="img/imagen12.png" alt="Imagen 12"><br>
+            <div class="text-container">
+              <div class="text">Mice and Mouse Pads</div>
+              <div class="bar"></div>
+          </div>
+        </div>
+        <div class="slide">
+            <img src="img/imagen13.png" alt="Imagen 13"><br>
+            <div class="text-container">
+              <div class="text">Headsets & Audio</div>
+              <div class="bar"></div>
+          </div>
+        </div>
+        <div class="slide">
+            <img src="img/imagen14.png" alt="Imagen 14"><br>
+            <div class="text-container">
+              <div class="text">Cases</div>
+              <div class="bar"></div>
+          </div>
+        </div>
+        <div class="slide">
+            <img src="img/imagen15.png" alt="Imagen 15"><br>
+            <div class="text-container">
+              <div class="text">Phones</div>
+              <div class="bar"></div>
+          </div>
+        </div>
+      </div><BR></BR>       
+        
+  </div>
+</div>
+
+
+
+  <div id="recentHistories">
+    <h1>RECENT HISTORIES</h1>
+    <div class="image-block">
+        <div class="recuadro1">
+            <div class="image-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga libero, culpa voluptatibus obcaecati sint.</div>
+        </div>
+        <div class="recuadro2">
+            <div class="image-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At animi blanditiis est laboriosam ipsum! Repellat.</div>
+        </div>
+        <div class="recuadro3">
+            <div class="image-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At animi blanditiis est laboriosam ipsum! Repellat.</div>
+        </div>
+    </div>
+    <div class="image-block">
+        <div class="recuadro4">
+            <div class="image-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At animi blanditiis est laboriosam ipsum! Repellat.</div>
+        </div>
+        <div class="recuadro5">
+            <div class="image-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At animi blanditiis est laboriosam ipsum! Repellat.</div>
+        </div>
+    </div>
+    <div class="more">
+      <div id="learnMore">LEARN MORE ></div>
+      <div class="bar0"></div>
+    </div>
+  </div>
+
+  <div class="image-carousel">
+    <h1>RECENT HISTORIES</h1>
+    <div class="image-carousel-inner">
+      <div class="image-carousel-item">
+        <img src="../img/im1.jpg" alt="Image 1">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga libero, culpa voluptatibus obcaecati sint.</a>
+      </div>
+      <div class="image-carousel-item">
+        <img src="../img/im2.jpg" alt="Image 2">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga libero, culpa voluptatibus obcaecati sint.</a>
+      </div>
+      <div class="image-carousel-item">
+        <img src="../img/im3.jpg" alt="Image 3">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga libero, culpa voluptatibus obcaecati sint.</a>
+      </div>
+      <div class="image-carousel-item">
+        <img src="../img/im4.jpg" alt="Image 4">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga libero, culpa voluptatibus obcaecati sint.</a>
+      </div>
+      <div class="image-carousel-item">
+        <img src="../img/im5.jpg" alt="Image 5">
+        <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga libero, culpa voluptatibus obcaecati sint.</a>
+      </div>
+    </div>
+  </div>
+
+  
+<div id="rogIn">
+  <h1 class="tituloRogIn">ROG IN ACTION</h1>
+  <div class="image-block1">
+      <div class="med1">
+          <img class="imgmedium" src="img/game2.png" alt="Imagen 1">
+          <img class="imggamin" src="img/gamin.jpg" alt="Imagen" >
+          <div class="image-text">The best ROG Ally games to play in short bursts
+          Sometimes you have a few hours to game.</div>
+      </div>
+      <div class="med2">
+          <img class="imgmedium" src="img/game1.png" alt="Imagen 2">
+          <img class="imggamin" src="img/gamin.jpg" alt="Imagen" >
+          <div class="image-text">ROG and Opera join forces for a special edition of Opera GX, the browser for gamers
+           .</div>
+      </div>
+      <div class="med3">
+          <img class="imgmedium" src="img/game3.png" alt="Imagen 3">
+          <img class="imggamin" src="img/gamin.jpg" alt="Imagen" >
+          <div class="image-text">The best retro and retro revival games for the ROG Ally
+           The ROG Ally can play modern.</div>
+      </div>
+  </div>
+  <div class="more1">
+    <div id="learnMore1">LEARN MORE ></div>
+    <div class="bar1"></div>
+  </div>
+</div>
+
+
+  <div class="final">
+  <h1>THE ART OF THE ROG UNIVERSE</h1><br>
+  <h3>Technology never sleeps, nor should the action. For those keen on winning power, the Republic of Gamers awaits. Driven by relentless innovation, ROG is committed to producing out-of-this-world experiences for gamers and enthusiasts everywhere.</h3>
+  </div>
+
+  <div class="finalX">
+    <img src="img/b1.jpg" alt="">
+    <h1>THE ART OF THE ROG UNIVERSE</h1><br>
+    <h3>Technology never sleeps, nor should the action. For those keen on winning power, the Republic of Gamers awaits. Driven by relentless innovation, ROG is committed to producing out-of-this-world experiences for gamers and enthusiasts everywhere.</h3>
+  </div>
+
+<div class="final1">  
+  <div id="banner1">
+    <div id="tabs1">
+      <a class="tabinit tab1" href="#">ABOUT ROG</a>
+      <a class="tab1" href="#">HOME</a>
+      <a class="tab1" href="#">NEWSROOM</a>
+      <a class="tab1" href="#">ACCESSIBILITY HELP</a>
+    </div>
+    <div id="icons1">
+    <img src="img/facebook.png" alt="" style="height: 20px;">
+    <img src="img/discord.png" alt=""style="height: 20px;">
+    <img src="img/youtube.png" alt="" style="margin-top: 3px;height: 20px;">
+    <img src="img/twitch.png" alt=""style="height: 20px;">
+    <img src="img/instagram.png" alt=""style="height: 20px;">
+    <img src="img/tik-tok.png" alt=""style="height: 20px;">
+    </div>
+  </div>
+  <div class="bary"></div>
+    <div id="banner2">
+      <div id="tabs2">
+        <div class="fa-solid fa-globe" style="font-size: 18px;"></div>
+        <a class="tab2" href="#"> Global/English</a>
+      </div>
+      <div id="icons2">
+        <a class="tab2" href="#">TERMS OF USE NOTICE</a>
+        <a class="tab2" href="#">PRIVACY POLICY</a>
+        <a class="tab3" href="#">©ASUSTEK COMPUTER INC. ALL RIGHTS RESERVED.</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ecer">
+    <div id="bannerX1" >
+      <div id="tabs1"><a class="tab1" href="#">ABOUT ROG</a></div>
+      <div id="tabs1"><a class="tab1" href="#">HOME</a></div>
+      <div id="tabs1"><a class="tab1" href="#">NEWSROOM</a></div>
+      <div id="tabs1"><a class="tab1" href="#">ACCESSIBILITY HELP</a></div>
+        <a class="tab1" href="#">FOLLOW ROG</a>    
+      <div id="icons2">
+      <img src="img/facebook.png" alt="" style="height: 20px;padding:0 25px 0 5px;">
+      <img src="img/discord.png" alt=""style="height: 20px;padding-right: 25px;">
+      <img src="img/youtube.png" alt="" style="margin-top: 3px;height: 20px;padding-right: 25px;">
+      <img src="img/twitch.png" alt=""style="height: 20px;padding-right: 25px;">
+      <img src="img/instagram.png" alt=""style="height: 20px;padding-right: 35px;">
+      <img src="img/tik-tok.png" alt=""style="height: 20px;">
+      </div>
+    </div> 
+
+    <div id="banner2X">
+      <div id="tabs2X">
+        <div class="fa-solid fa-globe" style="font-size: 18px;"></div>
+        <a class="tab2" href="#"> Global/English</a>
+      </div>
+
+      <div id="icons2X">
+        <a class="tab2" href="#">TERMS OF USE NOTICE</a>
+        <a class="tab2" href="#">PRIVACY POLICY</a>
+      </div>
+      <div id="icons2X">
+        <a class="tab3" href="#">©ASUSTEK COMPUTER INC. ALL RIGHTS RESERVED.</a>
+      </div>
+    </div>
+  </div>
+  
+
+
+<script>
+  const carousel = document.getElementById('carousel');
+  const prevButton = document.getElementById('prev-button');
+  const nextButton = document.getElementById('next-button');
+  const slideWidth = 380;
+  let currentIndex1 = 0;
+
+  prevButton.addEventListener('click', () => {
+      currentIndex1 = Math.max(currentIndex1 - 1, 0);
+      updateCarousel();
+  });
+  nextButton.addEventListener('click', () => {
+      currentIndex1 = Math.min(currentIndex1 + 1, 5);
+      updateCarousel();
+  });
+
+  function updateCarousel() {
+      const translateX = -currentIndex1 * slideWidth;
+      carousel.style.transform = `translateX(${translateX}px)`;
+  }
+  updateCarousel();
+</script>
+
+
+<script >
+  const slider = document.getElementById("sliderp");
+const arrowLeft = document.getElementById("arrowLeft");
+const arrowRight = document.getElementById("arrowRight");
+
+let currentSlide = 0;
+
+arrowLeft.addEventListener("click", () => {
+  if (currentSlide > 0) {
+    currentSlide--;
+    updateSlider();
+  }
+});
+
+arrowRight.addEventListener("click", () => {
+  if (currentSlide < 2) { 
+    currentSlide++;
+    updateSlider();
+  }
+});
+
+function updateSlider() {
+  const slideWidth = 560; 
+  slider.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+}
+
+</script>
+
+<!-- ANIMACION DE IMAGENES PRINCIPALES -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('#imageContainer img');
+    let currentIndex = 0;
+    
+    function startAnimation() {
+      const transitionDuration = 4000; 
+      images[currentIndex].style.opacity = '0';
+      currentIndex = (currentIndex + 1) % images.length;
+      images[currentIndex].style.opacity = '1';
+
+      setTimeout(startAnimation, transitionDuration);
+    }
+    
+    startAnimation();
+  });
+</script>
+
+<script>
+  const imageContainer = document.getElementById('imageContainerX');
+  let currentIndex2 = 0;
+  function startAnimation() {
+  const transitionDuration = 4000;
+  currentIndex2 = (currentIndex2 + 1) % 6;
+  imageContainer.style.transform = `translateX(-${currentIndex2 * 100}%)`;
+  setTimeout(startAnimation, transitionDuration);
+}
+startAnimation();
+</script>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const carouselInner = document.querySelector(".image-carousel-inner");
+  const carouselItems = document.querySelectorAll(".image-carousel-item");
+  let currentIndex = 0;
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % carouselItems.length;
+    const translateX = -currentIndex * 100;
+    carouselInner.style.transform = `translateX(${translateX}%)`;
+  }
+  setInterval(nextSlide, 4000);
+});
+
+
+/*LISTA DE MENU*/
+const openIcon = document.getElementById('openIcon');
+const closeIcon = document.getElementById('closeIcon');
+const containMenu = document.getElementById('containMenu');
+openIcon.addEventListener('click', function() {
+  containMenu.style.display = 'block';
+});
+closeIcon.addEventListener('click', function() {
+  containMenu.style.display = 'none';
+});
+
+</script>
+
+<script>
+function mostrarProductos() {
+  var tabProductos = document.querySelector(".tab");
+  var divProductos = document.querySelector(".containProducts");
+  tabProductos.classList.add("active"); 
+  divProductos.style.display = "block"; 
+}
+
+function ocultarProductos() {
+  var tabProductos = document.querySelector(".tab");
+  var divProductos = document.querySelector(".containProducts");
+  tabProductos.classList.remove("active"); 
+  divProductos.style.display = "none"; 
+}
+function mostrarInnovation() {
+  var tabInnovation = document.querySelector(".tab-innovation");
+  var divInnovation = document.querySelector(".containInnovation");
+  tabInnovation.classList.add("active");
+  divInnovation.style.display = "block";
+}
+
+function ocultarInnovation() {
+  var tabInnovation = document.querySelector(".tab-innovation");
+  var divInnovation = document.querySelector(".containInnovation");
+  tabInnovation.classList.remove("active");
+  divInnovation.style.display = "none";
+}
+
+function mostrarDownloads() {
+  var tabDownloads = document.querySelector(".tab-downloads");
+  var divDownloads = document.querySelector(".containDownloads");
+  tabDownloads.classList.add("active");
+  divDownloads.style.display = "block";
+}
+
+function ocultarDownloads() {
+  var tabDownloads = document.querySelector(".tab-downloads");
+  var divDownloads = document.querySelector(".containDownloads");
+  tabDownloads.classList.remove("active");
+  divDownloads.style.display = "none";
+}
+
+function mostrarCommunity() {
+  var tabCommunity = document.querySelector(".tab-community");
+  var divCommunity = document.querySelector(".containCommunity");
+  tabCommunity.classList.add("active");
+  divCommunity.style.display = "block";
+}
+
+function ocultarCommunity() {
+  var tabCommunity = document.querySelector(".tab-community");
+  var divCommunity = document.querySelector(".containCommunity");
+  tabCommunity.classList.remove("active");
+  divCommunity.style.display = "none";
+}
+
+function mostrarWhatsHot() {
+  var tabWhatsHot = document.querySelector(".tab-whatshot");
+  var divWhatsHot = document.querySelector(".containWhats");
+  tabWhatsHot.classList.add("active");
+  divWhatsHot.style.display = "block";
+}
+
+function ocultarWhatsHot() {
+  var tabWhatsHot = document.querySelector(".tab-whatshot");
+  var divWhatsHot = document.querySelector(".containWhats");
+  tabWhatsHot.classList.remove("active");
+  divWhatsHot.style.display = "none";
+}
+
+function mostrarSupport() {
+  var tabSupport = document.querySelector(".tab-support");
+  var divSupport = document.querySelector(".containSupport");
+  tabSupport.classList.add("active");
+  divSupport.style.display = "block";
+}
+
+function ocultarSupport() {
+  var tabSupport = document.querySelector(".tab-support");
+  var divSupport = document.querySelector(".containSupport");
+  tabSupport.classList.remove("active");
+  divSupport.style.display = "none";
+}
+
+
+</script>
+
+
+
+</body>
+</html>
+

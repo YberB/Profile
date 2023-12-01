@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/tunnel.png);
+    background-size: cover;
+}
+
+nav {
+    margin-top: 70px;
+}
+
+.box li {
+    display: inline;
+    margin: 0;
+    border-radius: 0;
+    font-size: 1.2em;
+    padding: 0;
+    background: rgba(253, 253, 253, 0.5);
+    border-right: 1px solid #fb5b04;
+}
+
+.menu1 {
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-right: 80%;
+}
+
+li:hover {
+    background: rgb(220,220,220);
+    cursor: pointer;
+}
+
+.menu1 li{
+    display: block;
+    list-style: none;
+    background-color: rgba(112, 113, 113, 0.507);
+    font-family: sans-serif;
+    font-weight: 0.9em; 
+    border-bottom: 3px solid rgba(168, 166, 166);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu1 li:hover {
+    background-color: rgb(79, 79, 84);
+    cursor: pointer;
+}
+
+.box li:hover .menu1 li {
+    display: block;
+}
+
+@media all and (max-width: 500px) {
+    .menu1 li{
+        margin-left: 35px;
+        width: 250px;
+        display: inline-flex;
+    }
+    .container{
+        margin-left: 35px;
+    }
+}

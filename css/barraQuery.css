@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/feria.jpg");
+    background-size: cover;
+}
+
+.img {  
+    height: 100px;
+    width: 90%;
+    position: relative;
+}
+
+label {
+    color:transparent;  
+}
+
+nav {
+    margin-top: 70px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box li {
+    display: block;
+    right: 3.5px;
+    text-align: left;
+    margin: 0;
+    border-radius: 0;
+    font-size: 1.2em;
+    padding: 0;
+    background: rgb(253,253,253,.253);
+    border-right: 2px solid #37b8f3;
+    border-left: 2px solid #37b8f3;
+}
+
+.menu1 > li {
+    float: left;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 80px;
+}
+
+nav li:hover >ul {
+    display: block;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+nav li ul li ul {
+    left: 123px;
+    top: 0;
+}
+
+.img-1 {
+    height: 100px;
+    margin-left: 250px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu1 {
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-right: 80%;
+}
+
+li:hover {
+    background: rgb(152, 198, 245);
+    cursor: pointer;
+}
+
+.menu1 li:hover {
+    background-color: rgb(152, 198, 245);
+    cursor: pointer;
+}
+
+.box li:hover .menu1 li {
+    display: block;
+}
+
+@media all and (max-width: 500px) {
+    
+    .box {
+        width: 100%;
+        display: block;
+        flex-direction: row;
+        margin-top: -100px;
+        right: -120px;
+    }
+    .box li {
+        display: block;
+        margin: 0;
+        border-radius: 0;
+        font-size: 1.2em;
+        padding: 5px;
+        right: -120px;
+        top: -30px;
+        background: rgb(114, 188, 248,.3);
+        border-bottom: 2px solid #97f385;
+        border-top: 2px solid #b4f3b4;
+    }
+    .img {
+        visibility: hidden;
+    }
+    .img-1 {
+        visibility: visible;
+        position: fixed;
+        margin-top: -200px;
+        left: 0;
+        cursor: pointer; 
+    }
+    .box-hidden {
+        display: none;
+    }
+    label {
+        font-size: 2.5em;
+        color: rgb(134, 244, 252); 
+        cursor: pointer;  
+    }
+    body {
+        justify-content: left;
+        align-items: center;
+        margin-left: 50px;
+        background-image: url("../images/fond.jpg");
+        background-size: cover;
+    }
+    .menu1 {
+        position:absolute;
+        margin-top: 20px;
+    }
+    li:hover {
+        background: rgb(180, 243, 206);
+        cursor: pointer;
+    }
+    .menu1 li:hover {
+        background-color: rgb(95, 215, 218);
+        cursor: pointer;
+    }
+    nav li ul li ul {
+        left: 10px;
+        top: 27px;
+    }
+}

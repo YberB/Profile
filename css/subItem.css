@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    background-image: url(../img/tec.jpg);
+    background-size: cover;
+}
+
+nav {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+nav li a:hover {
+    background-color: #434343;
+}
+
+ul li {
+    list-style: none;
+}
+
+.menu1 li a {
+    background-color: rgba(0, 0, 0, 0.597);
+    color:white;
+    text-decoration: none;
+    padding: 10px, 15px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(57, 196, 247, 0.5), inset 10px 10px 10px 10px rgba(129, 247, 241, 0.3);
+}
+
+.menu1 > li {
+    float: left;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 80px;
+}
+
+nav li:hover >ul {
+    display: block;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+nav li ul li ul {
+    right: -80px;
+    top: 0;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-principal{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.img-1-visible{
+    position: fixed;
+    width: 70%;
+    margin-left:16%;
+    margin-top: 5%;
+    left: 0;
+    transition: all 1200ms;
+}
+.img-1-hidden{
+    position: fixed;
+    width: 80%;
+    margin-left:10%;
+    margin-top: -5%;
+    left: -100%;
+    transition: all 1200ms;
+}
+
+.img-2-visible{
+    position: fixed;
+    width: 70%;
+    left: 0;
+    transition: all 1200ms;
+    margin-left:16%;
+    margin-top: 5%;
+}
+
+.img-2-hidden{
+    position: fixed;
+    width: 80%;
+    left: 100%;
+    transition: all 1200ms;
+    margin-top: -5%;
+}
+
+.img-2-hidden-a{
+    position: fixed;
+    width: 80%;
+    left: -100%;
+    transition: all 1200ms;
+    margin-top: -5%;
+}
+
+.img-3-visible{
+    position: fixed;
+    width: 70%;
+    left: 0;
+    transition: all 1200ms;
+    margin-left:16%;
+    margin-top: 5%;
+}
+
+.img-3-hidden{
+    position: fixed;
+    width: 80%;
+    left: 100%;
+    transition: all 1200ms;
+    margin-left:10%;
+    margin-top: -5%;
+}
+
+.left-arrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+.left-arrow-visible{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 220px;
+    left: 115px;
+    cursor: pointer;
+}
+
+.left-arrow-hidden{
+    width: 0;
+    height: 0;
+}
+
+.right-arrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 220px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.right-arrow-hidden{
+    width: 0;
+    height: 0;
+}
+

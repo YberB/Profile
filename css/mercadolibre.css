@@ -1,0 +1,196 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+    background-color: rgb(251, 210, 3);
+    display: grid;
+    grid-template: "logo box-input-busqueda hamburguer-menu carrito" /
+                    70px 1fr                40px            40px;
+}
+.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo {
+    width: 100%;
+}
+.box-input-busqueda {
+    grid-area: box-input-busqueda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-busqueda {
+    border-radius: 15px;
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 1.3em;
+}
+.hamburguer-menu {
+    grid-area: hamburguer-menu;
+}
+.carrito {
+    grid-area: carrito;
+}
+.icon-header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(48,48,48);
+    font-size: 1.3em;
+}
+.main-content {
+    
+    margin-top: 80px;
+}
+.box-producto {
+    display: grid;
+    grid-template: "box-img box-info" auto
+                    "linea-div  linea-div"/
+                     3fr     4fr;
+}
+.box-img {
+    grid-area: box-img;
+}
+.box-info {
+    grid-area: box-info;
+}
+.linea-div{
+grid-area: linea-div;
+height: 1px;
+width: 100%;
+}
+.img-auto {
+    padding: 20px;
+    width: 100%;
+}
+.marca{
+    margin-top: 15px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.precio{
+    display: block;
+    font-weight: bold; 
+    font-size: 1.5em;  
+    margin-bottom: 10px;
+}
+.box-corazon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: rgba(165, 169, 172, 0.713);
+    position: relative;
+    top: -120px;
+    left:105px; 
+    z-index: 0;
+}
+.icon-corazon{
+    color: #0043d4;
+    font-size: 1.1em;
+}
+
+.filtros-visible{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+}
+.filtros-hidden{
+    display: none;
+}
+
+@media only screen and (min-width: 520px){
+    .box-producto{
+        font-size: 1.5em;
+    }
+    .marca{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .main-content {
+    display: grid;
+    gap: 20px;
+    margin-left: 110px;
+    }
+
+    .box-filtro {
+    width: 200px;
+    height: 10px;
+    background-color: rgb(250, 246, 246);
+    position: fixed;
+    top: 5px;
+    }
+  
+    .box-toggle{
+    margin: 50px 0 0 50px;
+    width: 120px;
+    height: 60px;
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor:pointer;
+    margin-left: 5px;
+    background-color: rgb(200,200,200);
+    }
+
+    .box-toggle-off{
+    background-color: rgb(200,200,200);
+    }
+
+    .box-toggle-on{
+    background-color: rgb(52,131,250);
+    }
+
+    .button-toggle{
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: rgb(255, 255, 255);;
+    padding-left: 3px;
+    position: absolute;
+    }
+
+    .button-toggle-off{
+    left:3px;
+    transition: letf 700ms;
+    }
+
+    .button-toggle-on{
+    left:63px;
+    transition: left 700ms;
+    }
+    .content-stars{
+        margin-left: 130px;
+        width: 175px;
+        height: 52px;
+        background-color: azure;
+    }
+
+}
+
